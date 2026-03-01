@@ -1,12 +1,11 @@
-import PasswordGenerator from './PasswordGenerator';
+import PasswordGenerator from '@/PasswordGenerator';
 
 function App() {
-
-  return (
-    <>
-      <PasswordGenerator/>
-    </>
-  )
+    return (
+        <>
+            <PasswordGenerator />
+        </>
+    );
 }
 
-export default App
+export default App;
